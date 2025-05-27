@@ -1,0 +1,15 @@
+[project]
+name = "building-llms-for-production"
+version = "0.1.0"
+description = "This repository is a collection of code and resources for building large language models (LLMs) for production use."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain[google-genai]>=0.3.25",
+    "python-dotenv>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
